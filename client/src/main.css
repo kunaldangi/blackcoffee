@@ -1,0 +1,47 @@
+:root{
+	/* --primary-color: #FFC7C7;
+	--primary-color-light: #FFE2E2;
+	--secondary-color: #ffecec;
+	--secondary-color-light: #fff5f5;
+	
+	--primary-color-dark: #8785A2;
+	--secondary-color-dark: #4d488b;
+	--primary-color-darklight: #f3f2ff;
+	
+	--primary-text-color: #636363; */
+	
+	--primary-color: #e94d65;
+	--secondary-color: #1b4962;
+
+	--secondary-color-light: #d8ebf5;
+
+	--primary-background-color: #f8f7fa;
+	/* --primary-background-color-light: #f6f6f6a6; */
+	/* --secondary-background-color: #FFFFFF; */
+	
+	--primary-border-color: #80808057;
+	/* --primary-scroll-color: #d4d0ff; */
+
+
+	/* --primary-alert-color: #e60a0a; */
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%; /* 1rem = 10px */
+}
+
+body{
+	font-size: 1.6rem;
+	font-family: Public Sans,sans-serif,-apple-system,blinkmacsystemfont,Segoe UI,roboto,Helvetica Neue,arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol;
+
+	/* color: var(--primary-text-color); */
+	/* height: 100vh; */
+	background-color: var(--primary-background-color);
+}
+

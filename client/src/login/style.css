@@ -1,0 +1,99 @@
+.login__main--outter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login__main{
+    max-width: 500px;
+    width: 100%;
+    padding: 25px 50px;
+
+    font-size: 1.4rem;
+
+    border-radius: 4px;
+    background-color: white;
+}
+
+.login__header{
+    padding: 20px 0;
+}
+
+.login__header--title{
+    font-size: 2.4rem;
+}
+
+.login__header--info{
+    padding: 15px 0;
+}
+
+.login__passInfo{
+    padding: 10px 0;
+    margin: 20px 0;
+    
+    display: flex;
+    justify-content: center;
+
+    color: var(--secondary-color);
+    background-color: var(--secondary-color-light);
+}
+
+.login__email{
+    padding: 10px 0;
+}
+
+.login__pass{
+    padding: 10px 0;
+}
+
+.login__email--title, .login__pass--title{
+    padding-bottom: 2px;
+}
+
+.login__main input{
+    width: 100%;
+    padding: 8px 5px;
+
+    border: 1px solid var(--primary-border-color);
+    border-radius: 5px;
+}
+
+.login__main input:focus {
+    border: 3px solid var(--secondary-color-light);
+}
+
+.login__btn{
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.login__btn--submit{
+    padding: 10px 0;
+    flex: 1;
+
+    font-size: 2rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 3px;
+}
+
+.login__isRegister{
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.login__isRegister--btn{
+    padding: 0 10px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.login__isRegister--btn:hover{
+    cursor: pointer;
+}

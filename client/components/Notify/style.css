@@ -1,0 +1,37 @@
+.notify__main {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+    font-size: 16px;
+    
+    border-radius: 3px;
+}
+
+.notify__msg {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.notify__close {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 4px 5px 0px 0px;
+}
+
+
+
+.notify__main--success{
+    background-color: #daf8d7;
+    color: #1c721e;
+}
+
+
+
+.notify__main--error {
+    background-color: #fce4e4;
+    color: #b71c1c;  
+}
