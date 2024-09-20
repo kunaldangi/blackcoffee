@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="client/public/logo.png" alt="Logo" width="360" height="86" />
-</div>
-
 # Blackcoffer
 
 A data visualization web app.
