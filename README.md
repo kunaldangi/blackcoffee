@@ -4,7 +4,7 @@ A data visualization web app.
 
 ## Demo
 
-[Video](https://drive.google.com/file/d/1wHBaM-xBrEPpO4UwQZ0fKMyLKFi3-54r/view?usp=sharing)
+[Video](https://www.youtube.com/watch?v=imiaHUcxGSE)
 
 ## Architecture
 
